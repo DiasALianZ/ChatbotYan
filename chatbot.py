@@ -77,14 +77,7 @@ def diet_command(update: Update, context: CallbackContext) -> None:
 
 def weight_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /weight is issued."""
-    update.message.reply_text('Track and field: 450 calories per half hour. It can exercise the whole body.
-    Basketball: 250 calories per half hour. It can enhance flexibility and strengthen cardiopulmonary function.
-    Bicycle: it consumes 330 calories every half hour. It's good for heart, lung and legs.
-    Riding: 175 calories per half hour. Good for thigh and will training.
-    Water skiing: 240 calories per half hour. It has a good exercise effect on the whole body, limbs muscles and balance ability.
-    Golf: 125 calories per half hour. Its training effect comes from the long journey and batting action. If we can persevere, it is very beneficial to keep the lines beautiful.
-    Jogging: 300 calories per half hour. Good for heart, lung and blood circulation. The longer you run, the more calories you burn.
-    Walking: 75 calories per half hour. It can improve blood circulation, move joints and help to lose weight.')
+    update.message.reply_text('Track and field: 450 calories per half hour. It can exercise the whole body.')
 
 def gym_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /gym is issued."""
