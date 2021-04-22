@@ -59,21 +59,7 @@ def hello_command(update: Update, context: CallbackContext) -> None:
 
 def diet_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /diet is issued."""
-    update.message.reply_text('Vegetable calorimeter
-    Name (100g) calories (kcal)
-    Green pepper 24
-    Mushroom 24
-    Flammulina velutipes 28
-    Mushroom 413
-    Broccoli 26
-    Green beans 185
-    Dutchman 47
-    Laver 265
-    Carrot 21
-    Cabbage 21
-    Cucumber 13
-    Balsam pear 20
-    Mung bean 332')
+    update.message.reply_text('eat more Vegetable')
 
 def weight_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /weight is issued."""
