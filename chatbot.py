@@ -51,7 +51,7 @@ def echo(update, context):
 # context. Error handlers also receive the raised TelegramError object in error.
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Helping you helping you.')
+    update.message.reply_text('eat more Vegetable')
 
 def hello_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /hello is issued."""
