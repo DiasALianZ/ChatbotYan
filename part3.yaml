@@ -1,0 +1,21 @@
+version: '3'
+services:
+  chatbot:
+    image: 7940image2
+    # missing instructions for setting environment variable
+    # missing instructions for setting the entrypoint and/or command
+    command: ["chatboy.py"]
+    entrypoint: ["python"]
+    environment:
+      - HOST=redis
+      - PASSWORD=Cq40u0ENJAlfOFzJZnybGc1DelwXq8tB
+      - REDISPORT=11288
+      - ACCESS_TOKEN=1663811015:AAFh1HmZ04FAXQznTj8A8kF1MwbIaKCck9I
+
+    depends_on:
+      - redis
+  redis:
+    image: redis
+    volumes:
+       - ./redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["/usr/local/etc/redis/redis.conf"]
