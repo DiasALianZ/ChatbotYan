@@ -1,0 +1,3 @@
+HOST=realmcluster-shard-00-00.guqwq.mongodb.net
+PROT=27017
+PASSWORD=9988Ect@678
